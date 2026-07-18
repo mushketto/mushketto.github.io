@@ -6,8 +6,8 @@ import { Search, User, X, CalendarX2 } from 'lucide-react';
 import { createClient } from '@supabase/supabase-js';
 
 // === Инициализация Supabase ===
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const supabaseUrl = "https://wqulhpigvzbvqkejeoyx.supabase.co"
+const supabaseKey = "sb_publishable_qswbw_HJ8dx1RRUNPaspIg_QdPFL4gm"
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const CustomTooltip = ({ active, payload, label }) => {
