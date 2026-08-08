@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: gta5rp_profit_bot
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Kiev
